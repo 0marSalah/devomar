@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Computer Science Student",
+    "subtitle": "Aswan University",
+    "url": "https://www.aswu.edu.eg/",
+    "location": "Aswan, Egypt",
+    "start_date": "September 2018",
+    "end_date": "Expected Graduation: June 2022",
+    "description": [
+      "Explored a diverse range of computer science topics, including algorithms, data structures, and software engineering principles.",
+      "Honed problem-solving skills and critical thinking when tackling complex technical challenges.",
+      "Gained practical experience through coding assignments, software development, and participation in hackathons, applying theory to real-world problems.",
+      "Engaged in research projects in areas such as artificial intelligence, machine learning, and cybersecurity, deepening understanding of cutting-edge technologies.",
+      "Benefited from a supportive academic community, learning from dedicated professors, collaborating with peers, and attending enriching seminars and workshops."
+    ]
+  },
+  {
+    "title": "Software Engineering Scholar",
+    "subtitle": "ALX Software Engineer Program",
+    "url": "https://www.alxafrica.com/",
+    "location": "Online",
+    "start_date": "Enrolled: March 2022",
+    "end_date": "Expected Graduation: December 2023",
+    "description": [
+      "My journey with ALX's Software Engineer Program has been immersive and transformative, propelling me into the tech world.",
+      "I've mastered algorithms, data structures, and programming languages, sharpening my problem-solving and critical thinking skills daily.",
+      "Hands-on projects, coding sprints, and real-world applications have honed my expertise beyond theory.",
+      "I've explored frontiers in AI, cloud computing, and cybersecurity, fostering innovation and creativity.",
+      "Within a global community of learners and mentors, I've shared knowledge and forged lasting connections.",
+      "Approaching graduation, I'm poised to unleash the power of code on the world, driven by ALX's technical prowess and a passion for innovation."
+    ]
+  }
+]

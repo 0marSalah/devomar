@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Fullstack Developer",
+    "subtitle": "Modareseen.com",
+    "url": "https://modareseen.com/",
+    "location": "USA",
+    "start_date": "June 2022",
+    "end_date": "September 2023",
+    "description": [
+      "As a Fullstack Developer at Modareseen.com, I played a pivotal role in developing and maintaining our web applications.",
+      "I created engaging and responsive frontend interfaces using Next.js and Material-UI, collaborating closely with the design team.",
+      "On the backend, I designed robust APIs with Firebase, optimized performance, and ensured security and scalability.",
+      "Working in a team of three, I also managed the payment section, integrating the Fawaterak API for secure transactions.",
+      "This experience enriched my technical skills, teamwork, and integration expertise, contributing to the success of our platform."
+    ]
+  },
+  {
+    "title": "Frontend Developer Intern",
+    "subtitle": "Majdy Yaaqoub Center",
+    "url": "https://www.myf-egypt.org/aswan-heart-centre/",
+    "location": "Cairo, Egypt",
+    "start_date": "February 2023",
+    "end_date": "June 2023",
+    "description": [
+      "As a Frontend Developer Intern at the Majdy Yaaqoub Center, I contributed to a vital humanitarian cause by enhancing their online presence.",
+      "I crafted captivating user interfaces, collaborating with the center's team to translate their vision into interactive web experiences.",
+      "I honed my skills in GitHub, actively contributing to collaborative coding efforts, and gained proficiency in Next.js, a powerful framework for modern web applications.",
+      "This rewarding internship reinforced the impact of technology in making a difference, deepening my passion for creating meaningful digital solutions."
+    ]
+  }
+]

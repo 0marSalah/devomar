@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Syne:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Nosifer&family=Syne:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Syne:wght@400;500;600&display=swap');
+
+:root {
+  --background: #141b25;
+  --primary: #27ba8e;
+  --shadow: #373d45;
+
+  --header-height: 80px;
+
+  --xp: 12rem;
+  --lp: 4rem;
+  --sp: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: #ffff;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  padding-inline: var(--xp);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--shadow);
+  cursor: pointer;
+}
+
+img {
+  user-select: none;
+}
+
+/* Tablet */
+@media screen and (max-width: 1250px) {
+  .wrapper {
+    padding-inline: var(--lp);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-inline: var(--sp);
+  }
+}

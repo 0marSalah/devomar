@@ -1,0 +1,41 @@
+{
+  "sectionlinks": [
+    {
+      "title": "Home",
+      "url": "home"
+    },
+    {
+      "title": "About me",
+      "url": "about"
+    },
+    {
+      "title": "Experience",
+      "url": "experiance"
+    },
+    {
+      "title": "Projects",
+      "url": "projects"
+    },
+    {
+      "title": "Contact",
+      "url": "contact"
+    }
+  ],
+  "sociallinks": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/0marSalah",
+      "logo": "/social-icons/github.png"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omar-salah-689497253/",
+      "logo": "/social-icons/linkedin.png"
+    },
+    {
+      "title": "X",
+      "url": "https://twitter.com/0marSa1ah",
+      "logo": "/social-icons/x.png"
+    }
+  ]
+}
