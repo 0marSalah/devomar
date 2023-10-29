@@ -28,11 +28,13 @@ const Projects = () => {
                   ))}
                 </ul>
                 <ul className='icons links'>
-                  <li className='icon' key={project.title}>
-                    <a href={project.code_url} target='_blank' rel='noreferrer'>
-                      <img src={'/social-icons/github.png'} alt={project.title} width={25} height={25} />
-                    </a>
-                  </li>
+                  {project.code_url !== '' && (
+                    <li className='icon' key={project.title}>
+                      <a href={project.code_url} target='_blank' rel='noreferrer'>
+                        <img src={'/social-icons/github.png'} alt={project.title} width={25} height={25} />
+                      </a>
+                    </li>
+                  )}
                   <li className='icon' key={project.title}>
                     <a href={project.url} target='_blank' rel='noreferrer'>
                       <img src={'/external.png'} alt={project.title} width={25} height={25} />

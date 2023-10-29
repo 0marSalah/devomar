@@ -20,10 +20,26 @@ const Home = () => {
           I&apos;m a <span className='underline'>Software Engineer</span>
         </h1>
         <p>{home.home}</p>
-        <div className='primary-btn'>
-          <Link spy={true} smooth={true} duration={500} to={'#contact'}>
-            Get In Touch
-          </Link>
+        <div
+          style={{
+            display: 'flex',
+            gap: '1rem'
+          }}
+        >
+          <div className='primary-btn'>
+            <Link spy={true} smooth={true} duration={500} to={'contact'}>
+              Get In Touch
+            </Link>
+          </div>
+          <div className='primary-btn'>
+            <a
+              href={'https://drive.google.com/file/d/12ggp8bzf7pziQ30Po2k1nPVf55OIaw0t/view?usp=drive_link'}
+              target='_blank'
+              rel='noreferrer'
+            >
+              My Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>

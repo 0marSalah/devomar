@@ -15,7 +15,7 @@
     "subtitle": "An online shopping store for watches",
     "description": "As a frontend developer, I specialize in creating visually appealing and user-friendly online watch shops. Leveraging plain CSS and Swiper.js, I design interfaces with consistent aesthetics and responsive layouts, ensuring an enjoyable shopping experience for customers.  I create user-friendly interfaces that cater to both Arabic and English-speaking users. My focus is on crafting efficient and captivating web platforms tailored to meet the needs of watch enthusiasts and shoppers.",
     "photo": "/projects/grandeur.png",
-    "code_url": "",
+    "code_url": "https://github.com/0marSalah/grandeur-v1",
     "url": "https://grandeur-neon.vercel.app/",
     "skills": ["reactjs 18", "CSS", "Animation", "Github", "Vercel"]
   },

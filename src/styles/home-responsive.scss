@@ -1,8 +1,5 @@
 @media (max-width: 1555px) {
   .home-container {
-    --img-size: 350px;
-    --img-res-size: 250px;
-
     gap: 2rem;
   }
 
@@ -16,6 +13,7 @@
 @media (max-width: 1200px) {
   .home-container {
     gap: 3rem;
+    justify-content: flex-end;
   }
 
   .home-container .avatar img {
@@ -98,5 +96,9 @@
 @media screen and (max-width: 768px) and (max-height: 768px) {
   .home-container {
     height: 140vh;
+  }
+  .home-container .avatar img {
+    width: var(--img-res-size);
+    height: var(--img-res-size);
   }
 }
