@@ -14,7 +14,7 @@ const Header = () => {
     <div className='header-wrapper wrapper'>
       <div className='header'>
         <div className='logo' style={{ display: 'flex' }}>
-          <img src='/pal-logo1.svg' alt='omar' width={65} height={65} />
+          <img src='/pal-logo1.svg' alt='omar' />
         </div>
         <ul className='links'>
           {links.sectionlinks.map(link => (
