@@ -1,0 +1,42 @@
+[
+  {
+    "id": "0",
+    "title": "Modareseen",
+    "subtitle": "An integrated educational platform",
+    "description": "As a full-stack developer, I spearheaded the development of Modareseen.com, seamlessly integrating Firebase's suite of tools. On the backendm, My focus was on ensuring scalability, performance, data integrity, and security. On the frontend, I used Material-UI to create an appealing and user-friendly interface with a consistent design language and responsive layout. My comprehensive efforts in both frontend and backend development were instrumental in delivering a cohesive and efficient web application tailored to user needs.",
+    "code_url": "",
+    "url": "https://modareseen.com/",
+    "photo": "/projects/final-modareseen.png",
+    "skills": ["TypeScript", "tsx", "Nextjs", "Material-UI", "Firebase", "Github"]
+  },
+  {
+    "id": "1",
+    "title": "Grandeur",
+    "subtitle": "An online shopping store for watches",
+    "description": "As a frontend developer, I specialize in creating visually appealing and user-friendly online watch shops. Leveraging plain CSS and Swiper.js, I design interfaces with consistent aesthetics and responsive layouts, ensuring an enjoyable shopping experience for customers.  I create user-friendly interfaces that cater to both Arabic and English-speaking users. My focus is on crafting efficient and captivating web platforms tailored to meet the needs of watch enthusiasts and shoppers.",
+    "photo": "/projects/grandeur.png",
+    "code_url": "",
+    "url": "https://grandeur-neon.vercel.app/",
+    "skills": ["reactjs 18", "CSS", "Animation", "Github", "Vercel"]
+  },
+  {
+    "id": "2",
+    "title": "Safer",
+    "subtitle": "Safer Website is Travel Advisor",
+    "description": "As a frontend developer, my expertise lies in designing visually stunning and intuitive travel advisory websites. I harness the power of external APIs to seamlessly integrate real-time data on hotels, restaurants, and attractions, ensuring travelers have access to the latest and most relevant information for their journey. My commitment is to build dynamic and engaging web platforms that provide travelers with the essential guidance they need to explore new destinations confidently and safely.",
+    "photo": "/projects/safer.png",
+    "url": "https://travel-advisor-rose.vercel.app/",
+    "code_url": "https://github.com/0marsalah/travel-advisor",
+    "skills": ["React", "API", "Material-UI", "Vercel", "JSX"]
+  },
+  {
+    "id": "3",
+    "title": "Dolla Site",
+    "subtitle": "Dolla website is virtual banking site",
+    "photo": "/projects/final-dolla.png",
+    "description": "As a seasoned frontend developer, my proficiency shines in crafting visually captivating and user-friendly virtual banking websites. I leverage the potential of external APIs to seamlessly integrate up-to-the-minute data on financial services, transactions, and account management, ensuring users have access to the most current and pertinent information for their financial journey. CSS is my trusted ally in achieving stunning and intuitive user interfaces, enhancing the overall user experience.",
+    "code_url": "https://github.com/0marsalah/dolla-website",
+    "url": "https://0marsalah.github.io/dolla-website/",
+    "skills": ["React", "API", "Material-UI", "Vercel", "JSX"]
+  }
+]

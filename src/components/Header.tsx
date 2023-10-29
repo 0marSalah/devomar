@@ -56,7 +56,7 @@ const Header = () => {
             {links.sociallinks.map(link => (
               <li className='icon' key={link.title}>
                 <Link spy={true} smooth={true} duration={500} to={link.url}>
-                  <img src={link.logo} alt={link.title} />
+                  <img src={link.logo} alt={link.title} width={25} height={25} />
                 </Link>
               </li>
             ))}

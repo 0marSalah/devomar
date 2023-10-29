@@ -12,7 +12,7 @@ const ExpEdu = () => {
     setTab(tab)
   }
 
-  const slides = tab == 'experience' ? experience : education
+  const slides = tab === 'experience' ? experience : education
   return (
     <div className='exp-edu-wrapper' id='experiance'>
       <div className='exp-edu-container'>
@@ -29,20 +29,22 @@ const ExpEdu = () => {
           <Swiper>
             {slides.map((slide: any, index: number) => (
               <Slide key={index}>
-                <h2>
-                  {slide.title} at{' '}
-                  <a className='primary-span' href={slide.url} target='_blank'>
-                    {slide.subtitle}
-                  </a>
-                </h2>
-                <p className='duration'>
-                  {slide.start_date} - {slide.end_date}
-                </p>
-                <ul className='job-description'>
-                  {slide.description.map((desc: string, index: number) => (
-                    <li key={index}>{desc}</li>
-                  ))}
-                </ul>
+                <section>
+                  <h2>
+                    {slide.title} at{' '}
+                    <a className='primary-span' href={slide.url} target='_blank' rel='noreferrer'>
+                      {slide.subtitle}
+                    </a>
+                  </h2>
+                  <p className='duration'>
+                    {slide.start_date} - {slide.end_date}
+                  </p>
+                  <ul className='job-description'>
+                    {slide.description.map((desc: string, index: number) => (
+                      <li key={index}>{desc}</li>
+                    ))}
+                  </ul>
+                </section>
               </Slide>
             ))}
           </Swiper>

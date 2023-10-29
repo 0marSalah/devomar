@@ -37,7 +37,7 @@
 /* Links CSS */
 .links {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 4rem;
   grid-column: 3;
 }
@@ -60,7 +60,7 @@
 /* Icons CSS */
 .icons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 1rem;
   grid-column: 4;
   margin-left: 20px;
