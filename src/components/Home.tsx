@@ -20,12 +20,7 @@ const Home = () => {
           I&apos;m a <span className='underline'>Software Engineer</span>
         </h1>
         <p>{home.home}</p>
-        <div
-          style={{
-            display: 'flex',
-            gap: '1rem'
-          }}
-        >
+        <div className='home-btns'>
           <div className='primary-btn'>
             <Link spy={true} smooth={true} duration={500} to={'contact'}>
               Get In Touch

@@ -94,6 +94,10 @@
   right: 2.5px;
 }
 
+.home-btns {
+  display: flex;
+  gap: 1rem;
+}
 .primary-btn {
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
