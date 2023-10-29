@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className='header-wrapper wrapper'>
       <div className='header'>
-        <div className='logo' style={{ display: 'flex' }}>
+        <div className='logo'>
           <img src='/pal-logo1.svg' alt='omar' />
         </div>
         <ul className='links'>
