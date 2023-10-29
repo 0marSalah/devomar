@@ -25,7 +25,33 @@
   gap: 1rem;
   position: relative;
 }
+.gmail-icon {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  img {
+    width: 25px;
+    height: 25px;
+  }
 
+  &::before {
+    content: attr(data-msg);
+    position: absolute;
+    bottom: -28px;
+    right: -105%;
+    color: #fff;
+    white-space: nowrap;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: var(--shadow);
+    color: #ccc;
+    font-size: 0.7rem;
+    display: none;
+  }
+  &:hover::before {
+    display: block;
+  }
+}
 /* Logo CSS */
 .logo {
   grid-column: 1;

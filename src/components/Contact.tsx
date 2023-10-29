@@ -61,6 +61,7 @@ const Contact = () => {
       <h1>
         Interested in <br /> <span className='underline'>working</span> with me?
       </h1>
+      <h2>Let's get in touch! 🌟</h2>
       <form ref={form} onSubmit={handleSubmit}>
         <div className='input-container'>
           <label htmlFor='user_name'>Name</label>

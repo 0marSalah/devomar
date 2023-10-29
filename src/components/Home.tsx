@@ -17,7 +17,7 @@ const Home = () => {
         </h1>
         <img className='arrow' src='/arrow.svg' width={100} height={100} alt='left' />
         <h1>
-          I&apos;m a <span className='underline'>Software Engineer</span>
+          <span className='underline'>Software Engineer</span>
         </h1>
         <p>{home.home}</p>
         <div className='home-btns'>

@@ -9,6 +9,23 @@ import '../styles/hamburger.scss'
 
 const Header = () => {
   const [isActive, setActive] = React.useState(false)
+  const [msg, setMsg] = React.useState('Click to copy!')
+
+  const email = 'omar.salah1597@gmail.com'
+
+  const handleIconClick = () => {
+    navigator.clipboard
+      .writeText(email)
+      .then(() => {
+        setMsg('copied!')
+      })
+      .then(() => {
+        setTimeout(() => {
+          setMsg('Click to copy!')
+        }, 2000)
+      })
+      .catch(() => {})
+  }
 
   return (
     <div className='header-wrapper wrapper'>
@@ -26,6 +43,9 @@ const Header = () => {
           ))}
         </ul>
         <ul className='icons'>
+          <li className='gmail-icon' data-msg={msg} onClick={handleIconClick}>
+            <img src='/social-icons/gmail.png' alt='' />
+          </li>
           {links.sociallinks.map(link => (
             <li className='icon' key={link.title}>
               <a href={link.url} target='_blank' rel='noreferrer'>
@@ -55,6 +75,9 @@ const Header = () => {
             ))}
           </ul>
           <ul className='mob-icons'>
+            <li className='gmail-icon' data-msg={msg} onClick={handleIconClick}>
+              <img src='/social-icons/gmail.png' alt='' />
+            </li>
             {links.sociallinks.map(link => (
               <li className='icon' key={link.title}>
                 <Link spy={true} smooth={true} duration={500} to={link.url}>
