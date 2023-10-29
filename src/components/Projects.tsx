@@ -27,7 +27,7 @@ const Projects = () => {
                     </li>
                   ))}
                 </ul>
-                <ul className='icons links'>
+                <ul className='project-icons links'>
                   {project.code_url !== '' && (
                     <li className='icon' key={project.title}>
                       <a href={project.code_url} target='_blank' rel='noreferrer'>

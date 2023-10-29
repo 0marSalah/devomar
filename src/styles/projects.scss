@@ -105,3 +105,21 @@
     align-items: center;
   }
 }
+
+.project-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  grid-column: 4;
+  margin-left: 20px;
+}
+
+.project-icons .icon {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.project-icons .icon:hover {
+  opacity: 1;
+  transform: translateY(1px);
+}
