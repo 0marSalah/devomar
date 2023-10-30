@@ -42,13 +42,13 @@ textarea {
   font-size: 1rem;
   background-color: transparent;
   color: #fff;
-  transition: all 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
 
   &:focus {
     outline: none;
   }
   &:invalid {
-    border-color: red;
+    border-color: #dd2121c9;
   }
 }
 

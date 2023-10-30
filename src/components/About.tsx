@@ -15,7 +15,7 @@ const About = () => {
         </h1>
         <p>{home.about}</p>
         <div className='primary-btn'>
-          <Link spy={true} smooth={true} duration={500} to={'#contact'}>
+          <Link spy={true} smooth={true} duration={500} to={'contact'}>
             Work With Me
           </Link>
         </div>

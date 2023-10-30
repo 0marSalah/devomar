@@ -28,10 +28,13 @@
 .gmail-icon {
   position: relative;
   cursor: pointer;
-  transition: all 0.2s;
   img {
     width: 25px;
     height: 25px;
+  }
+
+  &:hover {
+    transform: translateY(1px);
   }
 
   &::before {
@@ -47,6 +50,7 @@
     color: #ccc;
     font-size: 0.7rem;
     display: none;
+    transition: all 0.2s;
   }
   &:hover::before {
     display: block;

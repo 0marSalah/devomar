@@ -6,7 +6,7 @@
     "description": "As a full-stack developer, I spearheaded the development of Modareseen.com, seamlessly integrating Firebase's suite of tools. On the backendm, My focus was on ensuring scalability, performance, data integrity, and security. On the frontend, I used Material-UI to create an appealing and user-friendly interface with a consistent design language and responsive layout. My comprehensive efforts in both frontend and backend development were instrumental in delivering a cohesive and efficient web application tailored to user needs.",
     "code_url": "",
     "url": "https://modareseen.com/",
-    "photo": "/projects/final-modareseen.png",
+    "photo": "/projects/mod1.jpg",
     "skills": ["TypeScript", "tsx", "Nextjs", "Material-UI", "Firebase", "Github"]
   },
   {
@@ -33,7 +33,7 @@
     "id": "3",
     "title": "Dolla Site",
     "subtitle": "Dolla website is virtual banking site",
-    "photo": "/projects/final-dolla.png",
+    "photo": "/projects/dolla1.jpg",
     "description": "As a seasoned frontend developer, my proficiency shines in crafting visually captivating and user-friendly virtual banking websites. I leverage the potential of external APIs to seamlessly integrate up-to-the-minute data on financial services, transactions, and account management, ensuring users have access to the most current and pertinent information for their financial journey. CSS is my trusted ally in achieving stunning and intuitive user interfaces, enhancing the overall user experience.",
     "code_url": "https://github.com/0marsalah/dolla-website",
     "url": "https://0marsalah.github.io/dolla-website/",
