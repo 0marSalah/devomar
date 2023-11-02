@@ -21,6 +21,8 @@
 .avatar img {
   z-index: 2;
   position: relative;
+  transition: transform ease-in-out;
+  animation: slide-up-down 4s ease-in-out infinite;
 }
 
 .avatar::after {
@@ -118,4 +120,15 @@
   cursor: pointer;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+/* ANIMATION */
+@keyframes slide-up-down {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }

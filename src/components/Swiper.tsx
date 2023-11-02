@@ -1,13 +1,22 @@
-// Swiper.js
-import React from 'react'
+// Swiper.js (Updated for looping)
+
+import React, { useState, useRef, useEffect } from 'react'
 import '../styles/swiper.scss'
-import { useState, useRef } from 'react'
 
 const Swiper = ({ children }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [startX, setStartX] = useState(0)
   const [isSwiping, setIsSwiping] = useState(false)
   const swiperRef = useRef(null)
+
+  // Ensure currentIndex stays within valid bounds
+  useEffect(() => {
+    if (currentIndex < 0) {
+      setCurrentIndex(children.length - 1)
+    } else if (currentIndex >= children.length) {
+      setCurrentIndex(0)
+    }
+  }, [currentIndex, children])
 
   const handleTouchStart = (e: React.TouchEvent) => {
     setStartX(e.touches[0].clientX)
@@ -51,19 +60,18 @@ const Swiper = ({ children }: any) => {
   const handleMouseUp = () => {
     setIsSwiping(false)
   }
+
   const handleMouseDown = (e: React.MouseEvent) => {
     setStartX(e.clientX)
     setIsSwiping(true)
   }
 
   const goToPrevious = () => {
-    const newIndex = currentIndex === 0 ? children.length - 1 : currentIndex - 1
-    setCurrentIndex(newIndex)
+    setCurrentIndex((currentIndex - 1 + children.length) % children.length)
   }
 
   const goToNext = () => {
-    const newIndex = currentIndex === children.length - 1 ? 0 : currentIndex + 1
-    setCurrentIndex(newIndex)
+    setCurrentIndex((currentIndex + 1) % children.length)
   }
 
   const goToSlide = (slideIndex: number) => {
