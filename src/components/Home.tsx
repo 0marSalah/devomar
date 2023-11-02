@@ -28,11 +28,11 @@ const Home = () => {
           </div>
           <div className='primary-btn'>
             <a
-              href={'https://drive.google.com/file/d/1K0hQVZIMKOta_ch_HoyLr_bJyQXkWEgV/view?usp=sharing'}
+              href={'https://drive.google.com/file/d/1ugE9GzcIYRr-Wr5bTguQEJebx8hIOydN/view?usp=sharing'}
               target='_blank'
               rel='noreferrer'
             >
-              My Resume
+              View My CV
             </a>
           </div>
         </div>
