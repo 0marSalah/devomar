@@ -57,7 +57,7 @@
 }
 
 .project-img {
-  width: clamp(300px, 100%, 450px);
+  max-width: clamp(300px, 100%, 450px);
   border-radius: 10px;
 }
 
