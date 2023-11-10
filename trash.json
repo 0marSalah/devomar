@@ -1,0 +1,10 @@
+{
+  "id": "3",
+  "title": "Dolla Site",
+  "subtitle": "Dolla website is virtual banking site",
+  "photo": "/projects/dolla1.jpg",
+  "description": "As a seasoned frontend developer, my proficiency shines in crafting visually captivating and user-friendly virtual banking websites. I leverage the potential of external APIs to seamlessly integrate up-to-the-minute data on financial services, transactions, and account management, ensuring users have access to the most current and pertinent information for their financial journey. CSS is my trusted ally in achieving stunning and intuitive user interfaces, enhancing the overall user experience.",
+  "code_url": "https://github.com/0marsalah/dolla-website",
+  "url": "https://0marsalah.github.io/dolla-website/",
+  "skills": ["React", "API", "Material-UI", "Vercel", "JSX"]
+}
