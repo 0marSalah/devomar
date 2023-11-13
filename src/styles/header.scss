@@ -1,5 +1,6 @@
-/* Header CSS */
+@import './animation.scss';
 
+/* Header CSS */
 .header-wrapper {
   width: 100vw;
   height: var(--header-height);
@@ -8,6 +9,8 @@
   background-color: var(--background);
   z-index: 99;
   box-shadow: 0px 1px 8px 0px var(--shadow);
+
+  animation: slide-down 1s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
