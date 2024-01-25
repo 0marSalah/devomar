@@ -28,7 +28,7 @@ const Home = () => {
           </div>
           <div className='primary-btn'>
             <a
-              href={'https://drive.google.com/file/d/1OeK69upWwAD3np31EkwhL5-FODTNGLWP/view?usp=sharing'}
+              href={'https://drive.google.com/file/d/1QeizwSFPk4LgksyVJ_Sn-L0bm0lNOSCL/view?usp=sharing'}
               target='_blank'
               rel='noreferrer'
             >
