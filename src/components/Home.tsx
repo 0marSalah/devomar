@@ -27,11 +27,7 @@ const Home = () => {
             </Link>
           </div>
           <div className='primary-btn'>
-            <a
-              href={'https://drive.google.com/file/d/1QeizwSFPk4LgksyVJ_Sn-L0bm0lNOSCL/view?usp=sharing'}
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href={process.env.REACT_APP_RESUME_LINK} target='_blank' rel='noreferrer'>
               View My CV
             </a>
           </div>
