@@ -1,5 +1,15 @@
 [
   {
+    "id": "0",
+    "title": "Onclick Platform",
+    "subtitle": "A learning management system (LMS)",
+    "description": "I spearheaded the development of a cutting-edge learning management system platform. Our team utilized GitHub Projects for task management, Vercel for deploying and Azure for hosting our database; our TypeScript-based platform. We faced numerous challenges, notably implementing secure course upload features. To address this, we integrated Cloudflare for enhanced security and managed. Our backend server was efficiently crafted using Express.js and Node.js, boasting over 10,000 lines of code. We adhered to the SOLID principles to ensure optimal performance and maintainability of our codebase.",
+    "photo": "/projects/onclick.png",
+    "url": "https://travel-advisor-rose.vercel.app/",
+    "code_url": "https://github.com/onclick-academy/onclick",
+    "skills": ["Nextjs v14", "Nodejs", "Azure", "Cloudflare", "TSX", "Express", "PostgreSQL", "Prisma Orm"]
+  },
+  {
     "id": "4",
     "title": "Deliciousss",
     "subtitle": "A food recipe application",
@@ -10,7 +20,7 @@
     "skills": ["React", "API", "StyledComponent", "JS", "Animation"]
   },
   {
-    "id": "0",
+    "id": "2",
     "title": "Modareseen",
     "subtitle": "An integrated educational platform",
     "description": "As a full-stack developer, I spearheaded the development of Modareseen.com, seamlessly integrating Firebase's suite of tools. On the backendm, My focus was on ensuring scalability, performance, data integrity, and security. On the frontend, I used Material-UI to create an appealing and user-friendly interface with a consistent design language and responsive layout. My comprehensive efforts in both frontend and backend development were instrumental in delivering a cohesive and efficient web application tailored to user needs.",
@@ -28,15 +38,5 @@
     "code_url": "https://github.com/0marSalah/grandeur-v1",
     "url": "https://grandeur-neon.vercel.app/",
     "skills": ["reactjs 18", "CSS", "Animation", "Github", "Vercel"]
-  },
-  {
-    "id": "2",
-    "title": "Safer",
-    "subtitle": "Safer Website is Travel Advisor",
-    "description": "As a frontend developer, my expertise lies in designing visually stunning and intuitive travel advisory websites. I harness the power of external APIs to seamlessly integrate real-time data on hotels, restaurants, and attractions, ensuring travelers have access to the latest and most relevant information for their journey. My commitment is to build dynamic and engaging web platforms that provide travelers with the essential guidance they need to explore new destinations confidently and safely.",
-    "photo": "/projects/safer.png",
-    "url": "https://travel-advisor-rose.vercel.app/",
-    "code_url": "https://github.com/0marsalah/travel-advisor",
-    "skills": ["React", "API", "Material-UI", "Vercel", "JSX"]
   }
 ]

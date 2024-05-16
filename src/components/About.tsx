@@ -11,7 +11,8 @@ const About = () => {
     <div className='home-container about-container wrapper' id='about'>
       <div className='content'>
         <h1>
-          Let&apos;s get know <span className='underline'>about me</span> closer
+          Let&apos;s get know <span className='underline'>about me</span> <br />
+          closer
         </h1>
         <p>{home.about}</p>
         <div className='primary-btn'>

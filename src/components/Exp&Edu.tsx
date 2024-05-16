@@ -30,11 +30,26 @@ const ExpEdu = () => {
             {slides.map((slide: any, index: number) => (
               <Slide key={index}>
                 <section>
-                  <h2>
+                  <h2
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      width: '100%',
+                      gap: '10px'
+                    }}
+                  >
                     {slide.title} at{' '}
                     <a className='primary-span' href={slide.url} target='_blank' rel='noreferrer'>
                       {slide.subtitle}
                     </a>
+                    {slide.projects_url && (
+                      <>
+                        -{' '}
+                        <a className='primary-span' href={slide.projects_url} target='_blank' rel='noreferrer'>
+                          Projects
+                        </a>
+                      </>
+                    )}
                   </h2>
                   <p className='duration'>
                     {slide.start_date} - {slide.end_date}

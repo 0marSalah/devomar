@@ -1,11 +1,25 @@
 [
   {
+    "title": "Fullstack Web Developer",
+    "subtitle": "TrustClaim & LinkedClaims Projects",
+    "url": "https://trustclaimproject.com/",
+    "location": "Remote",
+    "start_date": "Dec 2024",
+    "end_date": "Current",
+    "description": [
+      "Spearheaded backend development for TrustClaim Website, leveraging Node.js and Prisma to enhance functionality and user experience.",
+      "Collaborated in UI/UX design, implementing user interfaces with ReactJs and Material-UI for intuitive navigation and aesthetic appeal.",
+      "Played a key role in the LinkedClaims Project, advancing web3 technologies using Solid Server and Google SDK to forge secure, decentralized applications.",
+      "Ensured robust application performance and security, contributing to the project's success in the evolving landscape of web3 solutions."
+    ]
+  },
+  {
     "title": "Fullstack Developer",
     "subtitle": "Modareseen.com",
     "url": "https://modareseen.com/",
     "location": "USA",
-    "start_date": "June 2022",
-    "end_date": "September 2023",
+    "start_date": "Jan 2023",
+    "end_date": "Oct 2023",
     "description": [
       "As a Fullstack Developer at Modareseen.com, I played a pivotal role in developing and maintaining our web applications.",
       "I created engaging and responsive frontend interfaces using Next.js and Material-UI, collaborating closely with the design team.",
@@ -19,8 +33,8 @@
     "subtitle": "Majdy Yaaqoub Center",
     "url": "https://www.myf-egypt.org/aswan-heart-centre/",
     "location": "Cairo, Egypt",
-    "start_date": "February 2023",
-    "end_date": "June 2023",
+    "start_date": "May 2023",
+    "end_date": "Jul 2023",
     "description": [
       "As a Frontend Developer Intern at the Majdy Yaaqoub Center, I contributed to a vital humanitarian cause by enhancing their online presence.",
       "I crafted captivating user interfaces, collaborating with the center's team to translate their vision into interactive web experiences.",
