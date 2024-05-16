@@ -31,7 +31,9 @@ const Header = () => {
     <div className='header-wrapper wrapper'>
       <div className='header'>
         <div className='logo'>
-          <img src='/pal-logo1.svg' alt='omar' />
+          <Link to='home' spy={true} smooth={true} duration={500}>
+            <img src='/pal-logo1.svg' alt='omar' />
+          </Link>
         </div>
         <ul className='links'>
           {links.sectionlinks.map(link => (
