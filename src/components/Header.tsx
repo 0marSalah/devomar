@@ -31,7 +31,7 @@ const Header = () => {
     <div className='header-wrapper wrapper'>
       <div className='header'>
         <div className='logo'>
-          <Link to='home' spy={true} smooth={true} duration={500}>
+          <Link className='' to='home' spy={true} smooth={true} duration={500}>
             <img src='/pal-logo1.svg' alt='omar' />
           </Link>
         </div>

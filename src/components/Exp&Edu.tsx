@@ -33,12 +33,12 @@ const ExpEdu = () => {
                   <h2
                     style={{
                       display: 'flex',
-                      alignItems: 'center',
+                      flexDirection: 'column',
                       width: '100%',
                       gap: '10px'
                     }}
                   >
-                    {slide.title} at{' '}
+                    {slide.title}
                     <a className='primary-span' href={slide.url} target='_blank' rel='noreferrer'>
                       {slide.subtitle}
                     </a>

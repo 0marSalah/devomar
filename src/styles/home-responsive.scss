@@ -6,7 +6,7 @@
   }
 
   .home-container .avatar img:first-of-type {
-    width: var(--img-size);
+    max-width: var(--img-size);
     height: var(--img-size);
   }
 }

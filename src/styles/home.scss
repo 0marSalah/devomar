@@ -3,7 +3,7 @@
 .home-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-family: 'syne';
   font-weight: 100;
   gap: 10rem;
@@ -80,6 +80,7 @@
 
 .primary-span {
   color: var(--primary);
+  width: fit-content;
 }
 
 .content h1:last-of-type span {

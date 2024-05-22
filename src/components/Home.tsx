@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='home-container wrapper' id='home'>
       <div className='avatar'>
-        <img src='/home-avatar.png' width={500} height={500} alt='avatar' />
+        <img src='/home-avatar.png' alt='avatar' />
       </div>
       <div className='content'>
         <h1>
