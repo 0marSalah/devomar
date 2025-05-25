@@ -1,5 +1,19 @@
 [
   {
+    "title": "Software Engineer",
+    "subtitle": "DID.coop",
+    "url": "#",
+    "location": "United States",
+    "start_date": "Nov 2024",
+    "end_date": "Present",
+    "description": [
+      "Developed cross-domain data portability for the Hollo ActivityPub server, enabling smooth user migration (profiles, posts, followers) across federated servers.",
+      "Built secure export/import features with Hono, Bun, PostgreSQL, and Drizzle ORM; incorporated wallet-linked encrypted storage.",
+      "Created a CLI tool for validating Activity Streams 2.0 tarball files, ensuring protocol compliance and reliable data processing.",
+      "Utilized Sentry for debugging and error tracking, helping identify and resolve issues in production environments more efficiently."
+    ]
+  },
+  {
     "title": "Fullstack Web Developer",
     "subtitle": "TrustClaim & LinkedClaims Projects",
     "url": "https://trustclaimproject.com/",
@@ -21,11 +35,11 @@
     "start_date": "Jan 2023",
     "end_date": "Oct 2023",
     "description": [
-      "As a Fullstack Developer at Modareseen.com, I played a pivotal role in developing and maintaining our web applications.",
-      "I created engaging and responsive frontend interfaces using Next.js and Material-UI, collaborating closely with the design team.",
-      "On the backend, I designed robust APIs with Firebase, optimized performance, and ensured security and scalability.",
-      "Working in a team of three, I also managed the payment section, integrating the Fawaterak API for secure transactions.",
-      "This experience enriched my technical skills, teamwork, and integration expertise, contributing to the success of our platform."
+      "Developed and maintained web applications using Next.js and Material-UI for frontend development",
+      "Designed and implemented robust APIs using Firebase for backend services",
+      "Managed payment integration using Fawaterak API for secure transactions",
+      "Collaborated with a team of three developers to deliver high-quality features",
+      "Optimized application performance and ensured security and scalability"
     ]
   },
   {
@@ -36,10 +50,10 @@
     "start_date": "May 2023",
     "end_date": "Jul 2023",
     "description": [
-      "As a Frontend Developer Intern at the Majdy Yaaqoub Center, I contributed to a vital humanitarian cause by enhancing their online presence.",
-      "I crafted captivating user interfaces, collaborating with the center's team to translate their vision into interactive web experiences.",
-      "I honed my skills in GitHub, actively contributing to collaborative coding efforts, and gained proficiency in Next.js, a powerful framework for modern web applications.",
-      "This rewarding internship reinforced the impact of technology in making a difference, deepening my passion for creating meaningful digital solutions."
+      "Developed user interfaces using Next.js and modern web technologies",
+      "Collaborated with the center's team to implement design requirements",
+      "Utilized GitHub for version control and collaborative development",
+      "Contributed to enhancing the center's online presence and user experience"
     ]
   }
 ]
